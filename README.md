@@ -1,27 +1,27 @@
 # custom_html
 
-## Project Name :
+## Project Name 
 
 
 
 
-## Contributors :
+## Contributors 
 
 
 
 
-## Table Of Contents :
+## Table Of Contents 
 
 
 
 
 
-## Installations/Tools :
+## Installations/Tools 
 
 
 
 
-## References :
+## References 
 
 
 
