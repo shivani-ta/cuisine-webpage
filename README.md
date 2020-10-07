@@ -15,7 +15,7 @@
 
 ## Table Of Contents :
 
-### #c5f015Indian Cuisine
+### Indian Cuisine
 
 > Nithya Karepe will design web page about Indian Cuisine
 
