@@ -15,24 +15,24 @@
 
 ## Table Of Contents :
 
-### Indian Cuisine:
+### Indian Cuisine
+
+> Nithya Karepe will design web page about Indian Cuisine
 
 
+### Mexican Cuisine
+
+> Sai Varsha Vellanki will design web page about Mexican Cuisine
 
 
-### Mexican Cuisine:
+### Italian Cuisine
+
+> Shivani Tangellapally will design web page about Italian Cuisine
 
 
+### Asian Cuisine
 
-
-### Italian Cuisine:
-
-
-
-
-### Asian Cuisine:
-
-
+> Sri Vasavi Vipparla will design web page about Asian Cuisine
 
 
 ## 
