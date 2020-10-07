@@ -2,13 +2,7 @@
 
 ## Project Demo
 > Custom-HTML ELements
-
-
-
-
-
-
-
+This allows us to create custom, reusable and encapsulated HTML tags to use in web pages and web apps. All the web pages in this projects will be created using custom elements,html elements and shadow DOM is used to style these web pages.
 
 
 
