@@ -30,7 +30,7 @@
 
 <img src="Nithya.png" alt="drawing" width="150" style="border-radius:50%" />               <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />               <img src="vani.jpg.png" alt="drawing" width="150" style="border-radius:50%" />                  <img src="vasu.png" alt="drawing" width="150" style="border-radius:50%" />
   
-  [Nithya Karepe](https://github.com/KarepeN)                 [Sai Varsha Vellanki](https://github.com/cherryvarsha99)                  [Shivani Tangellapally](https://github.com/shivani-ta)              [Sri Vasavi Vipparla](https://github.com/Srivasavi-vipparla)  
+  [Nithya Karepe](https://github.com/KarepeN) &nbsp;&nbsp;&nbsp;&nbsp; [Sai Varsha Vellanki](https://github.com/cherryvarsha99) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [Shivani Tangellapally](https://github.com/shivani-ta)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   [Sri Vasavi Vipparla](https://github.com/Srivasavi-vipparla)  
 
 
 
