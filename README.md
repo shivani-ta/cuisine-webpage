@@ -1,4 +1,4 @@
-# CUISINE :plate_with_cutlery:
+# CUISINE
 
 ## Project Demo
 > Custom-HTML ELements
@@ -15,7 +15,7 @@
 
 ## Table Of Contents :
 
-### <span style="color: green"> Indian Cuisine </span> 
+### Indian Cuisine
 
 > Nithya Karepe will design web page about Indian Cuisine
 
