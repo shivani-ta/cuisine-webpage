@@ -15,22 +15,22 @@
 
 ## Table Of Contents :
 
-## indian cuisine:
+## Indian Cuisine:
 
 
 
 
-## mexican cuisine:
+## Mexican Cuisine:
 
 
 
 
-## italian cuisine:
+## Italian Cuisine:
 
 
 
 
-## asian cuisine:
+## Asian Cuisine:
 
 
 
