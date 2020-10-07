@@ -11,22 +11,22 @@ This allows us to create custom, reusable and encapsulated HTML tags to use in w
 
 ## Table Of Contents :
 
-### Indian Cuisine
+### Indian Cuisine:
 
 > Nithya Karepe will design web page about Indian Cuisine
 
 
-### Mexican Cuisine
+### Mexican Cuisine:
 
 > Sai Varsha Vellanki will design web page about Mexican Cuisine
 
 
-### Italian Cuisine
+### Italian Cuisine:
 
 > Shivani Tangellapally will design web page about Italian Cuisine
 
 
-### Asian Cuisine
+### Asian Cuisine:
 
 > Sri Vasavi Vipparla will design web page about Asian Cuisine
 
