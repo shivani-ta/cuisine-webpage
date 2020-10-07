@@ -15,7 +15,7 @@
 
 ## Table Of Contents :
 
-<span style="color: blue"> Indian Cuisine </span> Indian Cuisine
+### Indian Cuisine
 
 > Nithya Karepe will design web page about Indian Cuisine
 
