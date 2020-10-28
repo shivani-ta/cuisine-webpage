@@ -1,7 +1,7 @@
 class BBQC extends HTMLElement {
     connectedCallback() {
       this.innerHTML = ` Fire up your grill! Marinated in char siu and flavored with honey,`+
-      ` spruce up our slightly sweet yet tangy recipe with some fried rice.`;
+      ` spruce up our slightly sweet yet tangy recipe with some fried rice.<br><br>`+`<img src ="bbq.jpg" width="300" height="300"><br><br></br>`;
     }
   }
   
