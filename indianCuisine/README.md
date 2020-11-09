@@ -51,7 +51,14 @@ he links used to design  the web page are :
 
 
 ### Link to My Demo Video
-[Demo] 
+
+[Demo] https://app.vidgrid.com/content/mine
+
+## Credits to Caleb Williams
+
+https://css-tricks.com/an-introduction-to-web-components/
+
+
 
 ## Contributor :
 
