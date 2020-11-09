@@ -1,4 +1,4 @@
-# MEXICAN  CUISINE :plate_with_cutlery:
+# Indian CUISINE :plate_with_cutlery:
 
 ## Project Demo
 > Custom-HTML ELements
