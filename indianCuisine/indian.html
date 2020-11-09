@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: url('back.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: auto;
+
+        }
+    </style>
+    <title>About Indian Cuisine</title>
+    <link rel="stylesheet" type="text/css" href="indian.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Indian Cuisine</h1>
+    </div>
+    <div class="textBox">Indian cuisine consists of a variety of regional and traditional cuisines native to the Indian
+        subcontinent. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these
+        cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits</div>
+
+    <table align="center">
+        <tbody>
+            <tr>
+                <td><button class="button" type="button" id="ButterChicken">Butter
+                        Chicken</button>
+                </td>
+                <td><button class="button" type="button" id="PaneerTikka">Paneer
+                        Tikka</button>
+                </td>
+                <td><button class="button" type="button" id="IndianBread">Indian
+                        Bread</button>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="button" type="button" id="LambBiryani">Lamb
+                        Biryani</button>
+                </td>
+                <td><button class="button" type="button" id="MasalaChai">Masala
+                        Chai</button>
+                </td>
+                <td><button class="button" type="button" id="ChickpeaCurry">Chickpea
+                        Curry</button>
+                </td>
+            </tr>
+            <tr>
+                <td> <button class="button" type="button" id="MasalaDosa">Masala
+                        Dosa</button>
+                </td>
+                <td><button class="button" type="button" id="GulabJamun">Gulab
+                        Jamun</button>
+                </td>
+                <td><button class="button" type="button" id="DalMakni">Dal
+                        Makni</button>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <!-- The Modal -->
+    <div id="ButterChickenModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <butter-chicken></butter-chicken>
+            </p>
+        </div>
+
+    </div>
+    <div id="PaneerTikkaModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <paneer-tikka></paneer-tikka>
+            </p>
+        </div>
+
+    </div>
+    <div id="IndianBreadModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <indian-bread></indian-bread>
+            </p>
+        </div>
+
+    </div>
+    <div id="LambBiryaniModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <lamb-biryani></lamb-biryani>
+            </p>
+        </div>
+
+    </div>
+    <div id="MasalaChaiModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <masala-chai></masala-chai>
+            </p>
+        </div>
+
+    </div>
+    <div id="ChickpeaCurryModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <chickpea-curry></chickpea-curry>
+            </p>
+        </div>
+
+    </div>
+    <div id="MasalaDosaModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <masala-dosa></masala-dosa>
+            </p>
+        </div>
+
+    </div>
+    <div id="GulabJamunModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <gulab-jamun></gulab-jamun>
+            </p>
+        </div>
+
+    </div>
+    <div id="DalMakniModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>
+                <dal-makni></dal-makni>
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        // Get the modal
+        var ButterChickenModal = document.getElementById("ButterChickenModal");
+        var PaneerTikkaModal = document.getElementById("PaneerTikkaModal");
+        var IndianBreadModal = document.getElementById("IndianBreadModal");
+        var LambBiryaniModal = document.getElementById("LambBiryaniModal");
+        var MasalaChaiModal = document.getElementById("MasalaChaiModal");
+        var ChickpeaCurryModal = document.getElementById("ChickpeaCurryModal");
+        var MasalaDosaModal = document.getElementById("MasalaDosaModal");
+        var GulabJamunModal = document.getElementById("GulabJamunModal");
+        var DalMakniModal = document.getElementById("DalMakniModal");
+
+        // Get the button that opens the modal
+        var ButterChickenBtn = document.getElementById("ButterChicken");
+        var PaneerTikkaBtn = document.getElementById("PaneerTikka");
+        var IndianBreadBtn = document.getElementById("IndianBread");
+        var LambBiryaniBtn = document.getElementById("LambBiryani");
+        var MasalaChaiBtn = document.getElementById("MasalaChai");
+        var ChickpeaCurryBtn = document.getElementById("ChickpeaCurry");
+        var MasalaDosaBtn = document.getElementById("MasalaDosa");
+        var GulabJamunBtn = document.getElementById("GulabJamun");
+        var DalMakniBtn = document.getElementById("DalMakni");
+
+
+        // Get the <span> element that closes the modal
+        var span0 = document.getElementsByClassName("close")[0];
+        var span1 = document.getElementsByClassName("close")[1];
+        var span2 = document.getElementsByClassName("close")[2];
+        var span3 = document.getElementsByClassName("close")[3];
+        var span4 = document.getElementsByClassName("close")[4];
+        var span5 = document.getElementsByClassName("close")[5];
+        var span6 = document.getElementsByClassName("close")[6];
+        var span7 = document.getElementsByClassName("close")[7];
+        var span8 = document.getElementsByClassName("close")[8];
+
+        // When the user clicks the button, open the modal 
+        ButterChickenBtn.onclick = function () {
+            ButterChickenModal.style.display = "block";
+        }
+        PaneerTikkaBtn.onclick = function () {
+            PaneerTikkaModal.style.display = "block";
+        }
+        IndianBreadBtn.onclick = function () {
+            IndianBreadModal.style.display = "block";
+        }
+        LambBiryaniBtn.onclick = function () {
+            LambBiryaniModal.style.display = "block";
+        }
+        MasalaChaiBtn.onclick = function () {
+            MasalaChaiModal.style.display = "block";
+        }
+        ChickpeaCurryBtn.onclick = function () {
+            ChickpeaCurryModal.style.display = "block";
+        }
+        MasalaDosaBtn.onclick = function () {
+            MasalaDosaModal.style.display = "block";
+        }
+        GulabJamunBtn.onclick = function () {
+            GulabJamunModal.style.display = "block";
+        }
+        DalMakniBtn.onclick = function () {
+            DalMakniModal.style.display = "block";
+        }
+
+
+        // When the user clicks on <span> (x), close the modal
+        span0.onclick = function () {
+            ButterChickenModal.style.display = "none";
+        }
+        span1.onclick = function () {
+            PaneerTikkaModal.style.display = "none";
+        }
+        span2.onclick = function () {
+            IndianBreadModal.style.display = "none";
+
+        }
+        span3.onclick = function () {
+            LambBiryaniModal.style.display = "none";
+
+        }
+        span4.onclick = function () {
+            MasalaChaiModal.style.display = "none";
+
+        }
+        span5.onclick = function () {
+            ChickpeaCurryModal.style.display = "none";
+
+        }
+        span6.onclick = function () {
+            MasalaDosaModal.style.display = "none";
+
+        }
+        span7.onclick = function () {
+            GulabJamunModal.style.display = "none";
+
+        }
+        span8.onclick = function () {
+
+            DalMakniModal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == ButterChickenModal) {
+                ButterChickenModal.style.display = "none";
+            }
+            if (event.target == PaneerTikkaModal) {
+                PaneerTikkaModal.style.display = "none";
+            }
+            if (event.target == IndianBreadModal) {
+                IndianBreadModal.style.display = "none";
+            }
+            if (event.target == LambBiryaniModal) {
+                LambBiryaniModal.style.display = "none";
+            }
+            if (event.target == MasalaChaiModal) {
+                MasalaChaiModal.style.display = "none";
+            }
+            if (event.target == ChickpeaCurryModal) {
+                ChickpeaCurryModal.style.display = "none";
+            }
+            if (event.target == MasalaDosaModal) {
+                MasalaDosaModal.style.display = "none";
+            }
+            if (event.target == GulabJamunModal) {
+                GulabJamunModal.style.display = "none";
+            }
+            if (event.target == DalMakniModal) {
+                DalMakniModal.style.display = "none";
+            }
+        }
+
+    </script>
+    <script src="indianCuisine.js"></script>
+
+
+
+
+
+</body>
+
+
+<footer>
+    <p class="footer"> Nithya Karepe</p>
+
+</footer>
+
+</html>
