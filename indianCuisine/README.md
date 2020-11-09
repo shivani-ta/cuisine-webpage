@@ -52,7 +52,7 @@ he links used to design  the web page are :
 
 ### Link to My Demo Video
 
-[Demo] https://app.vidgrid.com/content/mine
+[Demo] https://app.vidgrid.com/view/NLEgv40ZaelR
 
 ## Credits to Caleb Williams
 
