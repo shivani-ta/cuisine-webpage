@@ -1,4 +1,4 @@
-# MEXICAN  CUISINE :plate_with_cutlery:
+# Indian CUISINE :plate_with_cutlery:
 
 ## Project Demo
 > Custom-HTML ELements
@@ -50,14 +50,18 @@ he links used to design  the web page are :
 [TABLE] https://www.w3schools.com/tags/tag_tbody.asp
 
 
-### Link to my Project Demo:
-[Indian Cuisine](http://127.0.0.1:5502/mexicanCuisine/mexican.html)
-
 ### Link to My Demo Video
-[Demo](https://app.vidgrid.com/view/B4tBnnmzxwjZ)
+
+[Demo] https://app.vidgrid.com/content/mine
+
+## Credits to Caleb Williams
+
+https://css-tricks.com/an-introduction-to-web-components/
+
+
 
 ## Contributor :
 
-  <img src="vsv.png" alt="drawing" width="150" style="border-radius:50%" />  
+  <img src="Nithya.png" alt="drawing" width="150" style="border-radius:50%" />  
   
- [Sai Varsha Vellanki](https://github.com/cherryvarsha99) 
+ [Nithya Karepe] (https://github.com/KarepeN/cuisine-webpage) 
